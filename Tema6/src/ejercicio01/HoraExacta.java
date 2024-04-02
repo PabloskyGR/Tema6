@@ -37,6 +37,7 @@ public class HoraExacta extends Hora {
 		}
 	}
 
+	@Override
 	public String toString() {
 		String res = "";
 
