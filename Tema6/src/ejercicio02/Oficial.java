@@ -5,7 +5,7 @@ public class Oficial extends Operario {
 	public String toString() {
 		String res = "";
 
-		res = super.toString() + "--> " + "Oficial";
+		res = super.toString() + " --> " + "Oficial";
 
 		return res;
 	}

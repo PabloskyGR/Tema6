@@ -5,7 +5,7 @@ public class Directivo extends Empleado {
 	public String toString() {
 		String res = "";
 
-		res = super.toString() + "--> " + "Directivo";
+		res = super.toString() + " --> " + "Directivo";
 
 		return res;
 	}

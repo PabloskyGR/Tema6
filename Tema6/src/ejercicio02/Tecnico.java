@@ -5,7 +5,7 @@ public class Tecnico extends Operario {
 	public String toString() {
 		String res = "";
 
-		res = super.toString() + "--> " + "Técnico";
+		res = super.toString() + " --> " + "Técnico";
 
 		return res;
 	}

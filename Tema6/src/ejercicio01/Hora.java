@@ -42,21 +42,19 @@ public class Hora {
 		String res = "";
 
 		if (hora < 10) {
-			res += "0" + this.hora + ":" + this.minuto;
+			res += "0" + this.hora;
 			if (minuto < 10) {
-				res += this.hora + ":0" + this.minuto;
+				res += ":0" + this.minuto;
 			} else {
-				res += this.hora + ":" + this.minuto;
+				res += ":" + this.minuto;
 			}
-
 		} else {
-			res += this.hora + ":" + this.minuto;
+			res += this.hora;
 			if (minuto < 10) {
-				res += this.hora + ":0" + this.minuto;
+				res += ":0" + this.minuto;
 			} else {
-				res += this.hora + ":" + this.minuto;
+				res += ":" + this.minuto;
 			}
-
 		}
 
 		return res;
