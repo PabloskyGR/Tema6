@@ -2,7 +2,7 @@ package ejercicio02;
 
 public class Empleado {
 
-	protected String nombre;
+	private String nombre;
 
 	public Empleado() {
 
