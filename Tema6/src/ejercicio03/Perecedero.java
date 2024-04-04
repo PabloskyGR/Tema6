@@ -5,7 +5,7 @@ public class Perecedero extends Productos {
 	private int diasCaducar;
 
 	public Perecedero() {
-
+		super();
 	}
 
 	public Perecedero(String nombre, double precio, int diasCaducar) {

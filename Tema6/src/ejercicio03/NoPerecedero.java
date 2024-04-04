@@ -2,10 +2,10 @@ package ejercicio03;
 
 public class NoPerecedero extends Productos {
 
-	private String tipo;
+	private String tipo = "";
 
 	public NoPerecedero() {
-
+		super();
 	}
 
 	public NoPerecedero(String nombre, double precio, String tipo) {
@@ -14,14 +14,6 @@ public class NoPerecedero extends Productos {
 		if (tipo != null && !tipo.equals("")) {
 			this.tipo = tipo;
 		}
-	}
-
-	public double calcular(int cantidad) {
-		double res = 0;
-
-		res = super.calcular(cantidad);
-
-		return res;
 	}
 
 	public String getTipo() {
@@ -34,11 +26,12 @@ public class NoPerecedero extends Productos {
 		}
 	}
 
+	@Override
 	public String toString() {
 		String res = "";
 
 		res += super.toString() + "\n";
-		res += "Tipo: " + "\n";
+		res += "Tipo: " + this.tipo + "\n";
 
 		return res;
 	}

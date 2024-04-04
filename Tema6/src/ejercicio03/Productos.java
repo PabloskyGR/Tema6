@@ -2,7 +2,7 @@ package ejercicio03;
 
 public class Productos {
 
-	protected String nombre;
+	protected String nombre = "";
 	protected double precio;
 
 	public Productos() {
@@ -20,11 +20,7 @@ public class Productos {
 	}
 
 	public double calcular(int cantidad) {
-		double res = 0;
-
-		res = cantidad * this.precio;
-
-		return res;
+		return precio * cantidad;
 	}
 
 	public String getNombre() {
@@ -57,12 +53,13 @@ public class Productos {
 		return res;
 	}
 
+	@Override
 	public boolean equals(Object obj) {
 		boolean iguales = false;
 
 		Productos productoDiff = (Productos) obj;
 
-		if (this.nombre.equals(productoDiff.nombre) && this.precio == productoDiff.precio) {
+		if (productoDiff.nombre.equals(this.nombre)) {
 			iguales = true;
 		}
 
