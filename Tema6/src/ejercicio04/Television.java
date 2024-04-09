@@ -19,7 +19,7 @@ public class Television extends Electrodomestico {
 		sintonizadorTDT = false;
 	}
 
-	public Television(double precioBase, double peso, String color, String consumo, int resolucion,
+	public Television(double precioBase, double peso, String color, char consumo, int resolucion,
 			boolean sintonizadorTDT) {
 		super(precioBase, peso, color, consumo);
 

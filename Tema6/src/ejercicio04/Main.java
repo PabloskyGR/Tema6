@@ -12,15 +12,15 @@ public class Main {
 		double precioTotalLavadoras = 0;
 		double precioTotalTelevisiones = 0;
 
-		electrodomesticos[0] = new Electrodomestico(150, 10, "blanco", "a");
-		electrodomesticos[1] = new Lavadora(200, 15, "negro", "b", 20);
-		electrodomesticos[2] = new Television(300, 20, "rojo", "c", 50, true);
+		electrodomesticos[0] = new Electrodomestico(150, 10, "blanco", 'a');
+		electrodomesticos[1] = new Lavadora(200, 15, "negro", 'b', 20);
+		electrodomesticos[2] = new Television(300, 20, "rojo", 'c', 50, true);
 		electrodomesticos[3] = new Electrodomestico(180, 12);
-		electrodomesticos[4] = new Lavadora(250, 18, "azul", "f", 25);
+		electrodomesticos[4] = new Lavadora(250, 18, "azul", 'f', 25);
 		electrodomesticos[5] = new Television(400, 25);
-		electrodomesticos[6] = new Electrodomestico(160, 8, "gris", "d");
+		electrodomesticos[6] = new Electrodomestico(160, 8, "gris", 'd');
 		electrodomesticos[7] = new Lavadora(220, 16);
-		electrodomesticos[8] = new Television(350, 22, "blanco", "e", 45, false);
+		electrodomesticos[8] = new Television(350, 22, "blanco", 'd', 45, false);
 		electrodomesticos[9] = new Electrodomestico(170, 14);
 
 		// Calculamos el precio final para cada electrodoméstico y mostramos el precio
