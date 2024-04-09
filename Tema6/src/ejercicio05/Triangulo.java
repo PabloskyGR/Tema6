@@ -72,8 +72,9 @@ public class Triangulo extends Poligono {
 		res += super.toString() + "3\n";
 		res += "Tipo: Triángulo\n";
 		res += "Lado 1: " + this.lado1 + "\n";
-		res += "lado 2: " + this.lado2 + "\n";
-		res += "lado 3: " + this.lado3 + "\n";
+		res += "Lado 2: " + this.lado2 + "\n";
+		res += "Lado 3: " + this.lado3 + "\n";
+		res += "Área: " + area();
 
 		return res;
 

@@ -56,6 +56,7 @@ public class Rectangulo extends Poligono {
 		res += "Tipo: Rectángulo\n";
 		res += "Ancho: " + this.lado1 + "\n";
 		res += "Largo: " + this.lado2 + "\n";
+		res += "Área: " + area();
 
 		return res;
 
