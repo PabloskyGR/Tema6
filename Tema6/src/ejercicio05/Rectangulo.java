@@ -52,7 +52,7 @@ public class Rectangulo extends Poligono {
 	public String toString() {
 		String res = "";
 
-		res += super.toString() + "4\n";
+		res += super.toString() + "\n";
 		res += "Tipo: Rectángulo\n";
 		res += "Ancho: " + this.lado1 + "\n";
 		res += "Largo: " + this.lado2 + "\n";

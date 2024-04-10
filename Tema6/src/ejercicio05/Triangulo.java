@@ -69,7 +69,7 @@ public class Triangulo extends Poligono {
 	public String toString() {
 		String res = "";
 
-		res += super.toString() + "3\n";
+		res += super.toString() + "\n";
 		res += "Tipo: Triángulo\n";
 		res += "Lado 1: " + this.lado1 + "\n";
 		res += "Lado 2: " + this.lado2 + "\n";
